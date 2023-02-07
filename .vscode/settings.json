@@ -1,0 +1,29 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.wordWrap": "off",
+  "editor.wordWrapColumn": 110,
+  "editor.wrappingIndent": "indent",
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+
+  "rewrap.wrappingColumn": 110,
+  "rewrap.autoWrap.enabled": false,
+
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "java.format.settings.url": ".vscode/eclipse-formatter.xml",
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": ["lib/**/*.jar"],
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
